@@ -1,0 +1,66 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background: #f3f4f6;
+    color: #111827;
+    padding: 20px;
+}
+
+.quote-card {
+    width: min(90vw, 520px);
+    background: #ffffff;
+    padding: 30px 24px;
+    border-radius: 16px;
+    box-shadow: 0 8px 24px rgba(17, 24, 39, 0.08);
+    text-align: center;
+    border: 1px solid #d1d5db;
+}
+
+#quoteID {
+    font-size: 1.8rem;
+    font-style: italic;
+    line-height: 1.6;
+    margin: 0 0 12px;
+    color: #111827;
+}
+
+#authorID {
+    font-size: 1rem;
+    font-weight: 600;
+    color: #4b5563;
+    margin: 0 0 20px;
+}
+
+button {
+    padding: 12px 22px;
+    font-size: 0.98rem;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+    cursor: pointer;
+    background: #111827;
+    color: #ffffff;
+    border: none;
+    border-radius: 999px;
+    transition: transform 0.2s ease, box-shadow 0.25s ease, filter 0.2s ease;
+    box-shadow: 0 10px 22px rgba(17, 24, 39, 0.18);
+}
+
+button:hover {
+    transform: translateY(-2px) scale(1.02);
+    box-shadow: 0 14px 26px rgba(17, 24, 39, 0.22);
+    filter: brightness(1.05);
+}
+
+button:active {
+    transform: translateY(0) scale(0.98);
+    box-shadow: 0 8px 18px rgba(17, 24, 39, 0.16);
+}
+
